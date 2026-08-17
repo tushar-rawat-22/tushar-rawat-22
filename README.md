@@ -2,7 +2,7 @@
 
 Full Stack AI Engineer focused on backend systems, cloud architecture, AI-assisted products, and engineering governance.
 
-I completed a **B.Tech in Information Technology** at Alliance University with a **Major in Cloud Computing**. I currently work at **Nexora**, where I contribute across backend services, databases, cloud workflows, AI systems, and governance engineering while coordinating delivery across a four-person engineering team.
+I completed a **B.Tech in Information Technology** at Alliance University with a **Major in Cloud Computing**. I currently work at **Truelanes**, where I contribute across backend services, databases, cloud workflows, AI systems, and governance engineering while coordinating delivery across a four-person engineering team.
 
 I am most interested in software where correctness matters beyond the demo: reliable data flows, explicit system boundaries, deterministic behaviour, security and privacy controls, failure recovery, and evidence that can be independently checked.
 
