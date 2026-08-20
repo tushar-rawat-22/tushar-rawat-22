@@ -22,6 +22,8 @@ A Python research system built around **falsification rather than profitability 
 
 Rejected hypotheses remain part of the record. The project does **not** claim a validated profitable strategy, and paper/live trading, credentials, orders, and capital deployment remain separately controlled.
 
+**Live:** https://deltagrid-observer.tushar142004.workers.dev
+
 ### [PersonaLattice](https://github.com/tushar-rawat-22/persona-lattice) — Evidence-First Public-Source Research System
 
 A private-admin research system using **FastAPI, Next.js, Python, TypeScript, SQLite, and deterministic evidence modelling**. It builds attributable public-source research records while keeping uncertainty, contradictions, provenance, privacy limits, and authentication boundaries explicit.
