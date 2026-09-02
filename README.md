@@ -1,18 +1,16 @@
 # Tushar Rawat
 
-Full Stack AI Engineer focused on backend systems, cloud architecture, AI-assisted products, and engineering governance.
+Full Stack AI Engineer and product builder focused on backend systems, cloud architecture, evidence-driven products, and engineering governance.
 
-I completed a **B.Tech in Information Technology** at Alliance University with a **Major in Cloud Computing**. I currently work at **Truelanes**, where I contribute across backend services, databases, cloud workflows, AI systems, and governance engineering while coordinating delivery across a four-person engineering team.
+I completed a **B.Tech in Information Technology** at Alliance University with a **Major in Cloud Computing**. I build and operate backend-heavy products where correctness matters beyond the demo: reliable data flows, explicit system boundaries, deterministic behaviour, security and privacy controls, recoverability, and evidence that can be independently checked.
 
-I am most interested in software where correctness matters beyond the demo: reliable data flows, explicit system boundaries, deterministic behaviour, security and privacy controls, failure recovery, and evidence that can be independently checked.
-
-## Selected work
+## Current work
 
 ### [SkillMint](https://github.com/tushar-rawat-22/skillmint-app) — Explainable Career Intelligence Platform
 
 A full-stack career-planning product built with **Next.js, React, TypeScript, Supabase, PostgreSQL, and Vercel**. It analyses resumes, separates claims from visible evidence, compares a profile with a target role, and turns gaps into deterministic career-roadmap actions.
 
-The project includes authentication, owner-aware browser persistence, Row Level Security, protected account operations, deterministic scoring, Playwright coverage across Chromium/Firefox/WebKit, and GitHub Actions quality checks.
+The production stack includes authentication, owner-aware browser persistence, Row Level Security, protected account operations, deterministic scoring, Playwright coverage across Chromium/Firefox/WebKit, and GitHub Actions quality gates. Controlled-beta rollout is in progress.
 
 **Live:** https://skillmint-app-three.vercel.app
 
@@ -22,24 +20,26 @@ A Python research system built around **falsification rather than profitability 
 
 Rejected hypotheses remain part of the record. The project does **not** claim a validated profitable strategy, and paper/live trading, credentials, orders, and capital deployment remain separately controlled.
 
-**Live:** https://deltagrid-observer.tushar142004.workers.dev
+**Public observer:** https://deltagrid-observer.tushar142004.workers.dev
 
 ### [PersonaLattice](https://github.com/tushar-rawat-22/persona-lattice) — Evidence-First Public-Source Research System
 
 A private-admin research system using **FastAPI, Next.js, Python, TypeScript, SQLite, and deterministic evidence modelling**. It builds attributable public-source research records while keeping uncertainty, contradictions, provenance, privacy limits, and authentication boundaries explicit.
 
-The system deliberately avoids turning weak identifier overlap into identity claims and keeps real case data and provider credentials outside Git.
+The public observer uses synthetic evidence only. Real retained cases, provider execution, credentials, and write authority stay behind the authenticated operator boundary.
+
+**Public observer:** https://persona-lattice.pages.dev
 
 ## Technical focus
 
 - **Languages:** Python, TypeScript, JavaScript, SQL
 - **Frontend:** Next.js, React
-- **Backend & data:** REST APIs, PostgreSQL, Supabase, data pipelines
-- **Cloud:** AWS, Google Cloud, Azure, Vercel
-- **Engineering:** Docker, Git, GitHub Actions, CI/CD, automated testing, Jira
-- **Architecture:** backend systems, cloud infrastructure, software architecture, governance and operational risk controls
+- **Backend & data:** REST APIs, PostgreSQL, Supabase, SQLite, data pipelines
+- **Cloud & delivery:** AWS, Google Cloud, Azure, Vercel, Cloudflare, GitHub Actions
+- **Engineering:** Docker, Git, CI/CD, automated testing, browser E2E, rollback and recovery workflows
+- **Architecture:** backend systems, cloud infrastructure, software architecture, governance, privacy and operational risk controls
 
-## What I value in engineering
+## Engineering principles
 
 - Evidence over unsupported claims
 - Reliability over demo-only success
