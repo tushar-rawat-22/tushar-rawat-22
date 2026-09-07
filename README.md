@@ -6,13 +6,15 @@ I completed a **B.Tech in Information Technology** at Alliance University with a
 
 I am currently building three products with deliberately different operating models: a commercial career product, a controlled evidence-research workspace, and a private quantitative research system with a public observer.
 
+The public links below are deployed independently of my laptop. Private/local operator runtimes are kept separate and are not presented as public production endpoints.
+
 ## Current work
 
 ### [SkillMint](https://github.com/tushar-rawat-22/skillmint-app) — Explainable Career Intelligence Platform
 
 A candidate-first career product built with **Next.js, React, TypeScript, Supabase, PostgreSQL, and browser-level automated testing**. It analyses resumes, separates claims from visible evidence, compares a profile with a target role, and turns gaps into concrete next actions and candidate-controlled Proof Briefs.
 
-The controlled-beta path now includes authentication, owner-aware persistence, Row Level Security, protected account operations, deterministic scoring, recruiter review boundaries, recovery testing, and Playwright coverage across Chromium/Firefox/WebKit. The current product is **invite-only for a small real-user beta** while usability and willingness-to-pay are tested.
+The controlled-beta path includes authentication, owner-aware persistence, Row Level Security, protected account operations, deterministic scoring, recruiter review boundaries, recovery testing, and browser acceptance. The candidate Production journey is green; external cohort expansion is still intentionally held until a separate recruiter identity completes the positive Production recruiter acceptance path.
 
 **Current beta deployment:** https://skillmint-app-three.vercel.app
 
@@ -20,7 +22,7 @@ The controlled-beta path now includes authentication, owner-aware persistence, R
 
 A research workspace using **FastAPI, Next.js, Python, TypeScript, SQLite, and deterministic evidence modelling**. It turns public-source research into attributable case records while keeping provenance, contradictions, source state, uncertainty, retention and authentication boundaries explicit.
 
-The public observer uses synthetic evidence only. The private analyst workspace keeps real retained cases, provider execution, credentials and mutation authority behind controlled access. Current work is focused on making retained-case search, reopen, synopsis, provenance and handoff/reporting feel like a professional case desk rather than an admin console.
+The public observer is a synthetic read-only evidence casebook. The private analyst workspace keeps real retained cases, provider execution, credentials and mutation authority behind controlled access. Current work is the comprehensive pre-external-operator acceptance gate across real analyst workflow, degraded-source truth, evidence integrity, persistence/recovery and browser/session boundaries.
 
 **Public observer:** https://persona-lattice.pages.dev
 
