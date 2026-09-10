@@ -14,9 +14,9 @@ The public links below are deployed independently of my laptop. Private/local op
 
 A candidate-first career product built with **Next.js, React, TypeScript, Supabase, PostgreSQL, and browser-level automated testing**. It analyses resumes, separates claims from visible evidence, compares a profile with a target role, and turns gaps into concrete next actions and candidate-controlled Proof Briefs.
 
-The controlled-beta path includes authentication, owner-aware persistence, Row Level Security, protected account operations, deterministic scoring, recruiter review boundaries, recovery testing, and browser acceptance. The candidate Production journey is green; external cohort expansion is still intentionally held until a separate recruiter identity completes the positive Production recruiter acceptance path.
+The public website is live and Mac-independent. Real Production acceptance has passed for both the authenticated candidate journey and the recruiter collaboration path, including owner/persona boundaries, recovery and browser checks. Access provisioning remains deliberately controlled while organic demand grows, and current work is focused on public-launch hardening, discoverability, failure resistance and the durable candidate job/application workflow rather than opening unrestricted signup.
 
-**Current beta deployment:** https://skillmint-app-three.vercel.app
+**Current deployment:** https://skillmint-app-three.vercel.app
 
 ### [PersonaLattice](https://github.com/tushar-rawat-22/persona-lattice) — Evidence-First Public-Source Research System
 
