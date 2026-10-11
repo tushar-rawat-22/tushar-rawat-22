@@ -1,59 +1,59 @@
 # Tushar Rawat
 
-Product builder and full-stack engineer focused on backend systems, cloud architecture, evidence-driven products, and engineering governance.
+I build backend-heavy products and research systems where reliability matters after the demo, not just during it.
 
-I completed a **B.Tech in Information Technology** at Alliance University with a **Major in Cloud Computing**. I build backend-heavy products where correctness matters beyond the demo: reliable data flows, explicit system boundaries, deterministic behaviour, security and privacy controls, recoverability, and evidence that can be independently checked.
-
-I am currently building three products with deliberately different operating models: a commercial career product, a controlled evidence-research workspace, and a private quantitative research system with a public observer.
-
-The public links below are deployed independently of my laptop. Private/local operator runtimes are kept separate and are not presented as public production endpoints.
+My current work spans career software, public-source research, and quantitative research. Across all three, I try to keep the same rule: make the system explain what it knows, what it does not know, and what it is actually allowed to do.
 
 ## Current work
 
-### [SkillMint](https://github.com/tushar-rawat-22/skillmint-app) — Explainable Career Intelligence Platform
+### [SkillMint](https://github.com/tushar-rawat-22/skillmint-app)
 
-A candidate-first career product built with **Next.js, React, TypeScript, Supabase, PostgreSQL, and browser-level automated testing**. It analyses resumes, separates claims from visible evidence, compares a profile with a target role, and turns gaps into concrete next actions and candidate-controlled Proof Briefs.
+Career intelligence for candidates and candidate-authorized recruiter review. It turns resume evidence and a target role into concrete gaps, next actions, and candidate-controlled Proof Briefs.
 
-The public website is live and Mac-independent. Real Production acceptance has passed for both the authenticated candidate journey and the recruiter collaboration path, including owner/persona boundaries, recovery and browser checks. Access provisioning remains deliberately controlled while organic demand grows, and current work is focused on public-launch hardening, discoverability, failure resistance and the durable candidate job/application workflow rather than opening unrestricted signup.
+Built with Next.js, React, TypeScript, Supabase and PostgreSQL.
 
-**Current deployment:** https://skillmint-app-three.vercel.app
+**Status:** controlled access. The current focus is pre-launch reliability, failure handling, Product/UI acceptance, and closed-user validation before broader signup.
 
-### [PersonaLattice](https://github.com/tushar-rawat-22/persona-lattice) — Evidence-First Public-Source Research System
+**Live:** https://skillmint-app-three.vercel.app
 
-A research workspace using **FastAPI, Next.js, Python, TypeScript, SQLite, and deterministic evidence modelling**. It turns public-source research into attributable case records while keeping provenance, contradictions, source state, uncertainty, retention and authentication boundaries explicit.
+### [PersonaLattice](https://github.com/tushar-rawat-22/persona-lattice)
 
-The public observer is a synthetic read-only evidence casebook. The private analyst workspace keeps real retained cases, provider execution, credentials and mutation authority behind controlled access. Current work is the comprehensive pre-external-operator acceptance gate across real analyst workflow, degraded-source truth, evidence integrity, persistence/recovery and browser/session boundaries.
+An evidence-first public-source research workspace built around provenance, contradictions, source state, uncertainty, retention, and explicit operator authority.
+
+The public observer is synthetic and read-only. Real retained cases, provider execution and credentials stay behind the private analyst boundary.
+
+Built with FastAPI, Next.js, Python, TypeScript and SQLite.
 
 **Public observer:** https://persona-lattice.pages.dev
 
-### [DeltaGrid](https://github.com/tushar-rawat-22/Delta_Grid) — Quantitative Research & Risk-Control System
+### [DeltaGrid](https://github.com/tushar-rawat-22/Delta_Grid)
 
-A Python research system built around **falsification rather than profitability claims**. It combines causal market-data handling, event-driven simulation, execution-cost modelling, immutable evidence, independent verification, statistical governance, and explicit separation between research capability and trading authority.
+A quantitative research system focused on falsification, realistic execution costs, reproducibility and risk controls rather than profitability claims.
 
-Rejected hypotheses remain part of the record. The project does **not** claim a validated profitable strategy. Public visitors can inspect a sanitized observer; future real use is intended to remain restricted and invite-only. Paper/live trading, credentials, orders, research permits and capital deployment remain separately controlled.
+Rejected hypotheses stay in the record. DeltaGrid does **not** claim a validated profitable strategy, and the public observer does not expose trading credentials, orders or capital authority.
+
+Built primarily with Python, with a public research observer on Cloudflare.
 
 **Public observer:** https://deltagrid-observer.tushar142004.workers.dev
 
 ## Technical focus
 
-- **Languages:** Python, TypeScript, JavaScript, SQL
-- **Frontend:** Next.js, React
-- **Backend & data:** FastAPI, REST APIs, PostgreSQL, Supabase, SQLite, data pipelines
-- **Cloud & delivery:** Cloudflare, Vercel, AWS, Google Cloud, GitHub Actions, Docker
-- **Testing & reliability:** Playwright, CI/CD, rollback/recovery workflows, deterministic fixtures, provenance checks
-- **Architecture:** backend systems, cloud infrastructure, software architecture, privacy, governance and operational risk controls
+- Python, TypeScript, JavaScript and SQL
+- Next.js, React, FastAPI
+- PostgreSQL, Supabase, SQLite and data pipelines
+- Playwright, CI/CD, deterministic fixtures, recovery and rollback workflows
+- Cloudflare, Vercel, GitHub Actions and Docker
+- Security, privacy, provenance and operational controls
 
-## Engineering principles
+## How I like to build
 
-- Evidence over unsupported claims
-- Reliability over demo-only success
-- Small, reversible changes over infrastructure theatre
-- Explicit ownership, privacy and security boundaries
-- Reproducible tests and measurable behaviour
-- Failure states that are designed, not ignored
-- Clear separation between what software *can* do and what it is *authorized* to do
+- prove important claims with tests or evidence
+- keep failure states visible instead of hiding them
+- prefer small reversible changes over large rewrites
+- separate public capability from private authority
+- treat recovery, privacy and observability as Product work
 
 ## Contact
 
-- **LinkedIn:** https://www.linkedin.com/in/14-tushar-rawat/
-- **Email:** tushar142004@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/14-tushar-rawat/)
+- [Email](mailto:tushar142004@gmail.com)
